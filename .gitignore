@@ -1,0 +1,46 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Dados locais - não publicar no GitHub
+data/raw/
+data/processed/
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+database/*.db-wal
+database/*.db-shm
+
+# Testes e qualidade
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+
+# IDE e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentação gerada
+site/
+
+# Build
+build/
+dist/
+wheels/
