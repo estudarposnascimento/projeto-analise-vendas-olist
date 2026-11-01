@@ -1,0 +1,31 @@
+
+site_name: Projeto de Análise de Vendas Olist
+site_description: Projeto de Engenharia e Análise de Dados utilizando Python, SQL e SQLite.
+site_author: Projeto de Portfólio
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Início: index.md
